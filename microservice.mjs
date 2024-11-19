@@ -32,6 +32,8 @@ app.get('/top-tracks-global', (req, res) => {
             res.json(playlistResponse)
         })
     })
+
+    console.log('Successfully returned top 50 global tracks')
 })
 
 app.get('/top-artists-global', (req, res) => {
@@ -41,6 +43,8 @@ app.get('/top-artists-global', (req, res) => {
             res.json(playlistResponse)
         })
     })
+
+    console.log('Successfully returned top 50 global artists')
 
 })
 
